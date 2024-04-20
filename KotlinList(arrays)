@@ -1,0 +1,22 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+
+val fruits:List<String> = listOf("Banana", "Mango", "Apple")
+
+fun main() {
+    
+println("fruits.size)
+
+//print with String.
+println("Size of fruits is ${fruits.size}")
+
+   //printing all list of fruits using foreach Loop.package
+    
+    fruits.forEach(){
+        
+        fruit->println(fruit)
+    }
+  
+}
