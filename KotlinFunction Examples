@@ -1,0 +1,32 @@
+fun main() {
+     
+    calculating(12,8)
+    calculating(20,8)
+    calculating(1,2)
+}
+    
+    fun calculating(firstNumber:Int, secondNumber:Int) {
+        
+    printStartingPart()
+    println("First Number Is $firstNumber")
+    println("Second Number Is $secondNumber")
+    println("Adition Of them is ${firstNumber + secondNumber}")
+    println("Substracton Of Them Is ${firstNumber - secondNumber}")
+    printEndingPart()
+       
+        
+}
+
+fun printStartingPart() {
+    println("")
+    println("***********************")
+    println("Calbot Started")
+    println("")
+}
+
+fun printEndingPart() {
+    println("")
+    println("Calbot Ended")
+    println("***********************")
+    println("")
+}
