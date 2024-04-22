@@ -41,7 +41,7 @@ class SecondActivity : AppCompatActivity() {
 
         fun onPause() {
             super.onPause()
-            Log.i("MYTAG", "SecondActivity: OnPause")
+            Log.i("MY-TAG", "SecondActivity: OnPause")
         }
 
         fun onStop() {
