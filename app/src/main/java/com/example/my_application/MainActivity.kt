@@ -60,4 +60,36 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+    //This Demo code shows How application life-Cycle works
+    override fun onStart() {
+        super.onStart()
+        Log.i("MYTAG","MainActivity: OnStart")
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.i("MYTAG","MainActivity: OnResume")
+
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.i("MYTAG","MainActivity: OnPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.i("MYTAG","MainActivity: OnStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.i("MYTAG","MainActivity: OnDestroy")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.i("MYTAG","MainActivity: OnResta")
+    }
 }
